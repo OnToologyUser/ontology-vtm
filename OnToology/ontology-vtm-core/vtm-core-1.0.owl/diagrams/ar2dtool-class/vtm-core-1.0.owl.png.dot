@@ -1,11 +1,11 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "base:Source" "base:Mention" "base:Entity" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "vtm-core:Source" "vtm-core:Mention" "vtm-core:Entity" ; /*classes style*/
 	"http://vocab.dhlab.epfl.ch/vtm-core" -> "http://vocab.dhlab.epfl.ch/vtm-core/1.0" [ label = "owl:versionIRI" ];
-	"base:Mention" -> "base:Entity" [ label = "base:refersTo" ];
-	"base:Entity" -> "base:Mention" [ label = "base:referredBy" ];
-	"base:Source" -> "base:Mention" [ label = "base:hasMention" ];
-	"base:Mention" -> "base:Source" [ label = "base:isMentionedIn" ];
+	"vtm-core:Mention" -> "vtm-core:Entity" [ label = "vtm-core:refersTo" ];
+	"vtm-core:Entity" -> "vtm-core:Mention" [ label = "vtm-core:referredBy" ];
+	"vtm-core:Source" -> "vtm-core:Mention" [ label = "vtm-core:hasMention" ];
+	"vtm-core:Mention" -> "vtm-core:Source" [ label = "vtm-core:isMentionedIn" ];
 
 }
