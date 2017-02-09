@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocab.dhlab.epfl.ch/vtm-rel#"
+     xml:base="http://vocab.dhlab.epfl.ch/vtm-rel"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel">
+        <owl:versionIRI rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel/1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#genericReference -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#genericReference">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasApprentice -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasApprentice">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasBusinessWith -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasBusinessWith">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasGuarantor -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasGuarantor">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasMaster -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasMaster">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isAdoptedBy -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isAdoptedBy">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isAdopterOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isAdopterOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isApprenticeOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isApprenticeOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isAuntOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isAuntOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isBrotherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isBrotherInLawOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isBrotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isColleagueOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isColleagueOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isCousinOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isCousinOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isDaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isDaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isFamilyOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isFamilyOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isFatherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isFatherInLawOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isFatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isFatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGodfatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGodfatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGodmotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGodmotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGranddaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGranddaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGrandfatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGrandfatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGrandmotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGrandmotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGrandsonOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGrandsonOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandchildOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandchildOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGranddaughterOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGranddaughterOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandfatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandfatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandmotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandmotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandsonOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandsonOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isGuarantorOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGuarantorOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isHeirOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isHeirOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isHusbandOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isHusbandOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isMotherInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isMotherInLawOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isMotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isMotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isNephewOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isNephewOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isPartnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isPartnerOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isSisterInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isSisterInLawOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isSisterOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isSisterOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isSonInLawOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isSonInLawOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isSonOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isSonOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isStepfatherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isStepfatherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isStepmotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isStepmotherOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isStepsonOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isStepsonOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isUncleOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isUncleOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isWidowOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isWidowOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#isWifeOf -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isWifeOf">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
