@@ -18,9 +18,6 @@
     "Mention" : {
       "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#Mention"
     },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
     "closeMatch" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
     },

@@ -6,7 +6,6 @@
 <http://vocab.dhlab.epfl.ch/vtm-core> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.dhlab.epfl.ch/vtm-core/1.0> .
 <http://vocab.dhlab.epfl.ch/vtm-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://vocab.dhlab.epfl.ch/vtm-core#refersTo> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E8re \u00E0"@fr .
 <http://vocab.dhlab.epfl.ch/vtm-core#refersTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the entity a mention refers to."@en .
 <http://vocab.dhlab.epfl.ch/vtm-core#refersTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.dhlab.epfl.ch/vtm-core#Entity> .
 <http://vocab.dhlab.epfl.ch/vtm-core#refersTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.dhlab.epfl.ch/vtm-core#Mention> .
@@ -30,7 +29,6 @@
 <http://vocab.dhlab.epfl.ch/vtm-core#hasComponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.ontologydesignpatterns.org/cp/owl/componency.owl#hasComponent"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://vocab.dhlab.epfl.ch/vtm-core#hasComponent> <http://www.w3.org/2002/07/owl#inverseOf> <http://vocab.dhlab.epfl.ch/vtm-core#isComponentOf> .
 <http://vocab.dhlab.epfl.ch/vtm-core#hasComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.dhlab.epfl.ch/vtm-core#referredBy> <http://www.w3.org/2000/01/rdf-schema#label> "Est r\u00E9f\u00E9r\u00E9 par"@fr .
 <http://vocab.dhlab.epfl.ch/vtm-core#referredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the mention an entity is referred by."@en .
 <http://vocab.dhlab.epfl.ch/vtm-core#referredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.dhlab.epfl.ch/vtm-core#Mention> .
 <http://vocab.dhlab.epfl.ch/vtm-core#referredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.dhlab.epfl.ch/vtm-core#Entity> .

@@ -23,7 +23,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">
-    <rdfs:label xml:lang="fr">Est référé par</rdfs:label>
     <rdfs:comment xml:lang="en">This property indicates the mention an entity is referred by.</rdfs:comment>
     <rdfs:range rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Mention"/>
     <rdfs:domain rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Entity"/>
@@ -59,7 +58,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">
-    <rdfs:label xml:lang="fr">Réfère à</rdfs:label>
     <rdfs:comment xml:lang="en">This property indicates the entity a mention refers to.</rdfs:comment>
     <rdfs:range rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Entity"/>
     <rdfs:domain rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Mention"/>
