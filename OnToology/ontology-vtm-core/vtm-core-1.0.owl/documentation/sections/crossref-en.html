@@ -32,12 +32,12 @@ This section provides details for each class and property defined by vtm-core.
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">Est référé par</a>
+            <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">referred by</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">Réfère à</a>
+            <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">refers to</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -55,14 +55,14 @@ This section provides details for each class and property defined by vtm-core.
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">Réfère à</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#isMentionedIn" title="http://vocab.dhlab.epfl.ch/vtm-core#isMentionedIn">is mentioned in</a>
+            <a href="#isMentionedIn" title="http://vocab.dhlab.epfl.ch/vtm-core#isMentionedIn">is mentioned in</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">refers to</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">Est référé par</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasMention" title="http://vocab.dhlab.epfl.ch/vtm-core#hasMention">has mention</a>
+            <a href="#hasMention" title="http://vocab.dhlab.epfl.ch/vtm-core#hasMention">has mention</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">referred by</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -94,9 +94,6 @@ This section provides details for each class and property defined by vtm-core.
    <h2>Object Properties</h2>
    <ul class="hlist">
       <li>
-         <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">Est référé par</a>
-      </li>
-      <li>
          <a href="#hasComponent" title="http://vocab.dhlab.epfl.ch/vtm-core#hasComponent">
             <span>has component</span>
          </a>
@@ -117,39 +114,16 @@ This section provides details for each class and property defined by vtm-core.
          </a>
       </li>
       <li>
-         <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">Réfère à</a>
+         <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">
+            <span>referred by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">
+            <span>refers to</span>
+         </a>
       </li>
    </ul>
-   <div class="entity" id="referredBy">
-      <h3>Est référé par<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://vocab.dhlab.epfl.ch/vtm-core#referredBy</p>
-      <div class="comment">
-         <span class="markdown">This property indicates the mention an entity is referred by.</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Entity" title="http://vocab.dhlab.epfl.ch/vtm-core#Entity">entity</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#Mention" title="http://vocab.dhlab.epfl.ch/vtm-core#Mention">mention</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">Réfère à</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="hasComponent">
       <h3>has component<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -252,8 +226,38 @@ This section provides details for each class and property defined by vtm-core.
          </dl>
       </div>
    </div>
+   <div class="entity" id="referredBy">
+      <h3>referred by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.dhlab.epfl.ch/vtm-core#referredBy</p>
+      <div class="comment">
+         <span class="markdown">This property indicates the mention an entity is referred by.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Entity" title="http://vocab.dhlab.epfl.ch/vtm-core#Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Mention" title="http://vocab.dhlab.epfl.ch/vtm-core#Mention">mention</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#refersTo" title="http://vocab.dhlab.epfl.ch/vtm-core#refersTo">refers to</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="refersTo">
-      <h3>Réfère à<sup class="type-op" title="object property">op</sup>
+      <h3>refers to<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
@@ -278,7 +282,7 @@ This section provides details for each class and property defined by vtm-core.
             </dd>
             <dt>is inverse of</dt>
             <dd>
-               <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">Est référé par</a>
+               <a href="#referredBy" title="http://vocab.dhlab.epfl.ch/vtm-core#referredBy">referred by</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>

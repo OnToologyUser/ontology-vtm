@@ -26,7 +26,6 @@
       a       owl:ObjectProperty ;
       rdfs:comment "This property indicates the mention an entity is referred by."@en ;
       rdfs:domain :Entity ;
-      rdfs:label "Est référé par"@fr ;
       rdfs:range :Mention ;
       owl:inverseOf :refersTo .
 
@@ -62,5 +61,4 @@ skos:closeMatch
       a       owl:FunctionalProperty , owl:ObjectProperty ;
       rdfs:comment "This property indicates the entity a mention refers to."@en ;
       rdfs:domain :Mention ;
-      rdfs:label "Réfère à"@fr ;
       rdfs:range :Entity .
