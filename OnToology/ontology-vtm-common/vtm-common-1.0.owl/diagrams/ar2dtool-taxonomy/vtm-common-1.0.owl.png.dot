@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "vtm-common:Sestiere" "vtm-common:PlaceMention" "vtm-common:Place" "vtm-common:PersonMention" "vtm-common:Person" "vtm-common:Parish" ; /*classes style*/
+	"vtm-common:Parish" -> "vtm-common:Place" [ label = "rdfs:subClassOf" ];
+	"vtm-common:Place" -> "http://vocab.dhlab.epfl.ch/vtm-core#Entity" [ label = "rdfs:subClassOf" ];
+	"vtm-common:PlaceMention" -> "http://vocab.dhlab.epfl.ch/vtm-core#Mention" [ label = "rdfs:subClassOf" ];
+	"vtm-common:Sestiere" -> "vtm-common:Place" [ label = "rdfs:subClassOf" ];
+	"vtm-common:Person" -> "http://vocab.dhlab.epfl.ch/vtm-core#Entity" [ label = "rdfs:subClassOf" ];
+	"vtm-common:PersonMention" -> "http://vocab.dhlab.epfl.ch/vtm-core#Mention" [ label = "rdfs:subClassOf" ];
+
+}

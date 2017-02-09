@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Serie" "base:Register" "base:Page" "base:Fund" "base:Box" "base:ArchivalUnit" "base:ArchivalHolder" ; /*classes style*/
+	"base:Fund" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"base:Register" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"base:Serie" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"base:ArchivalHolder" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"base:Box" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+	"base:Page" -> "base:ArchivalUnit" [ label = "rdfs:subClassOf" ];
+
+}

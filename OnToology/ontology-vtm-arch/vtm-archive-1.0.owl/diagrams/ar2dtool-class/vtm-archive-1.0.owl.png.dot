@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"base:archiveProperties" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:hasPage" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"base:isImagedBy" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"base:hasArchivalSignature" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"http://vocab.dhlab.epfl.ch/vtm-archive" -> "http://vocab.dhlab.epfl.ch/vtm-archive/1.0" [ label = "owl:versionIRI" ];
+	"base:isImageOf" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"base:isPageOf" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"base:onPage" -> "base:archiveProperties" [ label = "rdfs:subPropertyOf" ];
+	"owl:Thing" -> "xsd:int" [ label = "base:number" ];
+
+}

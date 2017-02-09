@@ -1,0 +1,89 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://vocab.dhlab.epfl.ch/vtm-archive#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vtm-arch="http://vocab.dhlab.epfl.ch/vtm-archive/1.0#" > 
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#onPage">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#Register">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#box">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#number">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#Box">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalSignature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#Fund">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#Serie">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#isImageOf">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#hasPage">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#pageSide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#hasArchivalSignature">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#isImagedBy">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#series">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#isPageOf">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive">
+    <owl:versionIRI rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive/1.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalHolder">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#Page">
+    <rdfs:subClassOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalSignatureComponent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-archive#fund">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+</rdf:RDF>

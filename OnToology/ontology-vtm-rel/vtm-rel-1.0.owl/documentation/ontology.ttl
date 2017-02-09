@@ -1,0 +1,201 @@
+@prefix :        <http://vocab.dhlab.epfl.ch/vtm-rel#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:isSonInLawOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isAuntOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGrandfatherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isHeirOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isApprenticeOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isSisterOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isFatherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isPartnerOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+<http://vocab.dhlab.epfl.ch/vtm-rel>
+      a       owl:Ontology ;
+      owl:versionIRI <http://vocab.dhlab.epfl.ch/vtm-rel/1.0> .
+
+:relationProperties
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty .
+
+:isHusbandOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGreatGrandmotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isAdoptedBy
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isStepsonOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:hasMaster
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:businessRelation
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :relationProperties .
+
+:isGrandmotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isFatherInLawOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isSonOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isBrotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:genericReference
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :relationProperties .
+
+:isFamilyOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGreatGrandchildOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGodmotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:hasGuarantor
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isNephewOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isBrotherInLawOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGreatGrandsonOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGodfatherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isUncleOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGrandsonOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGreatGranddaughterOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isMotherInLawOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isCousinOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:familyRelation
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :relationProperties .
+
+:isSisterInLawOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isWifeOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isMotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:hasBusinessWith
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isStepmotherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isColleagueOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isDaughterOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isWidowOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isAdopterOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:hasApprentice
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isGranddaughterOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isStepfatherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
+
+:isGuarantorOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :businessRelation .
+
+:isGreatGrandfatherOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .

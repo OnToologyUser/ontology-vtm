@@ -1,0 +1,49 @@
+{
+  "@context" : {
+    "referredBy" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#referredBy",
+      "@type" : "@id"
+    },
+    "refersTo" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#refersTo",
+      "@type" : "@id"
+    },
+    "Source" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#Source"
+    },
+    "isMentionedIn" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#isMentionedIn",
+      "@type" : "@id"
+    },
+    "Mention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#Mention"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
+    },
+    "isComponentOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#isComponentOf",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Entity" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#Entity"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasComponent" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#hasComponent",
+      "@type" : "@id"
+    },
+    "hasMention" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-core#hasMention",
+      "@type" : "@id"
+    }
+  }
+}
