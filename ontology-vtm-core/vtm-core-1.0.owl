@@ -88,7 +88,6 @@
         <rdfs:domain rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Entity"/>
         <rdfs:range rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Mention"/>
         <rdfs:comment xml:lang="en">This property indicates the mention an entity is referred by.</rdfs:comment>
-        <rdfs:label xml:lang="fr">Est référé par</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -100,7 +99,6 @@
         <rdfs:domain rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Mention"/>
         <rdfs:range rdf:resource="http://vocab.dhlab.epfl.ch/vtm-core#Entity"/>
         <rdfs:comment xml:lang="en">This property indicates the entity a mention refers to.</rdfs:comment>
-        <rdfs:label xml:lang="fr">Réfère à</rdfs:label>
     </owl:ObjectProperty>
     
 
