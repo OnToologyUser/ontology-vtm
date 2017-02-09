@@ -1,0 +1,79 @@
+{
+  "@context" : {
+    "onPage" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#onPage",
+      "@type" : "@id"
+    },
+    "Register" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#Register"
+    },
+    "isImageOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#isImageOf",
+      "@type" : "@id"
+    },
+    "isImagedBy" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#isImagedBy",
+      "@type" : "@id"
+    },
+    "archiveProperties" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#archiveProperties",
+      "@type" : "@id"
+    },
+    "ArchivalSignature" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalSignature"
+    },
+    "pageSide" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#pageSide"
+    },
+    "box" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#box"
+    },
+    "ArchivalSignatureComponent" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalSignatureComponent"
+    },
+    "hasPage" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#hasPage",
+      "@type" : "@id"
+    },
+    "Box" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#Box"
+    },
+    "ArchivalUnit" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalUnit"
+    },
+    "isPageOf" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#isPageOf",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "fund" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#fund"
+    },
+    "hasArchivalSignature" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#hasArchivalSignature",
+      "@type" : "@id"
+    },
+    "number" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#number",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Page" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#Page"
+    },
+    "series" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#series"
+    },
+    "ArchivalHolder" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#ArchivalHolder"
+    },
+    "Serie" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#Serie"
+    },
+    "Fund" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-archive#Fund"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@prefix :        <http://vocab.dhlab.epfl.ch/vtm-archive#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vtm-arch:  <http://vocab.dhlab.epfl.ch/vtm-archive/1.0#> .
+
+:onPage
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+:Register
+      a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:box  a       owl:DatatypeProperty .
+
+:number
+      a       owl:DatatypeProperty ;
+      rdfs:range xsd:int .
+
+:Box  a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:ArchivalSignature
+      a       owl:Class .
+
+:Fund
+      a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:Serie
+      a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:isImageOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+:hasPage
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+:pageSide
+      a       owl:DatatypeProperty .
+
+:archiveProperties
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty .
+
+:hasArchivalSignature
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+:isImagedBy
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+:series
+      a       owl:DatatypeProperty .
+
+:isPageOf
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :archiveProperties .
+
+<http://vocab.dhlab.epfl.ch/vtm-archive>
+      a       owl:Ontology ;
+      owl:versionIRI <http://vocab.dhlab.epfl.ch/vtm-archive/1.0> .
+
+:ArchivalUnit
+      a       owl:Class .
+
+:ArchivalHolder
+      a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:Page
+      a       owl:Class ;
+      rdfs:subClassOf :ArchivalUnit .
+
+:ArchivalSignatureComponent
+      a       owl:Class .
+
+:fund
+      a       owl:DatatypeProperty .
