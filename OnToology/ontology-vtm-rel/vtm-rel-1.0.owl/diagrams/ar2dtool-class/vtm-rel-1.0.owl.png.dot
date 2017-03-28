@@ -35,6 +35,7 @@ size="1501"
 	"base:isGuarantorOf" -> "base:businessRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:isGreatGrandchildOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:isGranddaughterOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
+	"base:hasRelationshipWith" -> "base:relationProperties" [ label = "rdfs:subPropertyOf" ];
 	"base:isDaughterOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:isStepfatherOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:isBrotherOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
@@ -49,6 +50,7 @@ size="1501"
 	"base:isWifeOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:relationProperties" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
 	"base:isAuntOf" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
+	"base:hasFamilyLinkWith" -> "base:familyRelation" [ label = "rdfs:subPropertyOf" ];
 	"base:familyRelation" -> "base:relationProperties" [ label = "rdfs:subPropertyOf" ];
 
 }

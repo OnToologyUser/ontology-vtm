@@ -1,7 +1,7 @@
-<h2>4. Cross reference for vtm-rel classes, properties and dataproperties</h2>
+<h2  id="crossreference" class="list">Cross reference for vtm-rel classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 This section provides details for each class and property defined by vtm-rel.
 <div id="objectproperties">
-   <h2>Object Properties</h2>
+   <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
          <a href="#businessRelation"
@@ -32,6 +32,12 @@ This section provides details for each class and property defined by vtm-rel.
          </a>
       </li>
       <li>
+         <a href="#hasFamilyLinkWith"
+            title="http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith">
+            <span>has family link with</span>
+         </a>
+      </li>
+      <li>
          <a href="#hasGuarantor" title="http://vocab.dhlab.epfl.ch/vtm-rel#hasGuarantor">
             <span>has guarantor</span>
          </a>
@@ -39,6 +45,12 @@ This section provides details for each class and property defined by vtm-rel.
       <li>
          <a href="#hasMaster" title="http://vocab.dhlab.epfl.ch/vtm-rel#hasMaster">
             <span>has master</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasRelationshipWith"
+            title="http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith">
+            <span>has relationship with</span>
          </a>
       </li>
       <li>
@@ -309,7 +321,9 @@ This section provides details for each class and property defined by vtm-rel.
             </dd>
             <dt>has sub-properties</dt>
             <dd>
-               <a href="#isAdoptedBy" title="http://vocab.dhlab.epfl.ch/vtm-rel#isAdoptedBy">is adopted by</a>
+               <a href="#hasFamilyLinkWith"
+                  title="http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith">has family link with</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#isAdoptedBy" title="http://vocab.dhlab.epfl.ch/vtm-rel#isAdoptedBy">is adopted by</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#isAdopterOf" title="http://vocab.dhlab.epfl.ch/vtm-rel#isAdopterOf">is adopter of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#isAuntOf" title="http://vocab.dhlab.epfl.ch/vtm-rel#isAuntOf">is aunt of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#isBrotherInLawOf"
@@ -419,6 +433,23 @@ This section provides details for each class and property defined by vtm-rel.
          </dl>
       </div>
    </div>
+   <div class="entity" id="hasFamilyLinkWith">
+      <h3>has family link with<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#familyRelation" title="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation">family relation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="hasGuarantor">
       <h3>has guarantor<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -450,6 +481,24 @@ This section provides details for each class and property defined by vtm-rel.
             <dd>
                <a href="#businessRelation"
                   title="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation">business relation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRelationshipWith">
+      <h3>has relationship with<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#relationProperties"
+                  title="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties">relation properties</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -1158,6 +1207,8 @@ This section provides details for each class and property defined by vtm-rel.
                <sup class="type-op" title="object property">op</sup>, <a href="#familyRelation" title="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation">family relation</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#genericReference"
                   title="http://vocab.dhlab.epfl.ch/vtm-rel#genericReference">generic reference</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#hasRelationshipWith"
+                  title="http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith">has relationship with</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>

@@ -8,6 +8,10 @@
       a       owl:ObjectProperty ;
       rdfs:subPropertyOf :familyRelation .
 
+:hasRelationshipWith
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :relationProperties .
+
 :isAuntOf
       a       owl:ObjectProperty ;
       rdfs:subPropertyOf :familyRelation .
@@ -195,6 +199,10 @@
 :isGuarantorOf
       a       owl:ObjectProperty ;
       rdfs:subPropertyOf :businessRelation .
+
+:hasFamilyLinkWith
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf :familyRelation .
 
 :isGreatGrandfatherOf
       a       owl:ObjectProperty ;

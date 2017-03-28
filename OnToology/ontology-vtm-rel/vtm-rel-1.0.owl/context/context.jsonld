@@ -148,6 +148,10 @@
       "@id" : "http://vocab.dhlab.epfl.ch/vtm-rel#genericReference",
       "@type" : "@id"
     },
+    "hasFamilyLinkWith" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith",
+      "@type" : "@id"
+    },
     "isColleagueOf" : {
       "@id" : "http://vocab.dhlab.epfl.ch/vtm-rel#isColleagueOf",
       "@type" : "@id"
@@ -162,6 +166,10 @@
     },
     "isMotherOf" : {
       "@id" : "http://vocab.dhlab.epfl.ch/vtm-rel#isMotherOf",
+      "@type" : "@id"
+    },
+    "hasRelationshipWith" : {
+      "@id" : "http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith",
       "@type" : "@id"
     },
     "isSonOf" : {

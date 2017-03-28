@@ -8,6 +8,10 @@
     <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isAuntOf">
     <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -194,6 +198,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGuarantorOf">
     <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith">
+    <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#isGreatGrandfatherOf">
