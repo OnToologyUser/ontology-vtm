@@ -63,6 +63,14 @@
     
 
 
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasFamilyLinkWith">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#familyRelation"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasGuarantor -->
 
     <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasGuarantor">
@@ -75,6 +83,14 @@
 
     <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasMaster">
         <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#businessRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.dhlab.epfl.ch/vtm-rel#hasRelationshipWith">
+        <rdfs:subPropertyOf rdf:resource="http://vocab.dhlab.epfl.ch/vtm-rel#relationProperties"/>
     </owl:ObjectProperty>
     
 
